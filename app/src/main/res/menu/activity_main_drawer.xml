@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/ic_menu_book"
+            android:title="@string/nav_books" />
+        <item
+            android:id="@+id/nav_authors"
+            android:icon="@drawable/ic_menu_authors"
+            android:title="@string/nav_authors" />
+        <item
+            android:id="@+id/nav_tags"
+            android:icon="@drawable/ic_menu_tag"
+            android:title="@string/nav_tags" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_menu_favorite"
+            android:title="@string/nav_favorites" />
+    </group>
+
+    <item android:title="@string/nav_add_books">
+        <menu>
+            <item
+                android:id="@+id/nav_libraries"
+                android:icon="@drawable/ic_menu_library"
+                android:title="@string/nav_libraries" />
+            <item
+                android:id="@+id/nav_catalogs"
+                android:icon="@drawable/ic_menu_catalog"
+                android:title="@string/nav_saved_catalogs" />
+            <item
+                android:id="@+id/nav_files"
+                android:icon="@drawable/ic_menu_files"
+                android:title="@string/nav_files" />
+        </menu>
+    </item>
+    <item android:title="@string/nav_more">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/nav_settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_info"
+                android:title="@string/nav_about" />
+        </menu>
+    </item>
+
+</menu>

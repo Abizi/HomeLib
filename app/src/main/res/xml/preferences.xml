@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <CheckBoxPreference
+        android:title="Boy?"
+        android:defaultValue="true"
+        android:key="x"
+        tools:defaultValue="false"/>
+    <SwitchPreference
+        android:title="Kill"
+        android:defaultValue="true"
+        android:key="y"/>
+</PreferenceScreen>

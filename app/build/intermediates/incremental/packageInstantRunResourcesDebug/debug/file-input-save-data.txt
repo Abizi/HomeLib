@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Mar 09 14:29:56 GMT 2018
+0.baseType=DIRECTORY
+0.base=C\:\\AndroidStudioProjects\\HomeLib\\app\\build\\intermediates\\assets\\debug
+0.path=file.pdf
+0.set=ASSET
+count=1
